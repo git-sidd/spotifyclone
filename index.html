@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>spotify</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Podcast</li>
+            <li>Setting</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songList">
+            <h1>Best of Imagine Dragons & Sia</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="c1.jpg" alt="1">
+                    <span class="songName">Enemy</span>
+                    <span class="songListPlay"><span>4.54</span><i id="0" class=" songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="c1.jpg" alt="1">
+                    <span class="songName">Enemy</span>
+                    <span class="songListPlay"><span>4.54</span><i id="1" class=" songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="c1.jpg" alt="1">
+                    <span class="songName">Enemy</span>
+                    <span class="songListPlay"><span>4.54</span><i id="2" class=" songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="c1.jpg" alt="1">
+                    <span class="songName">Enemy</span>
+                    <span class="songListPlay"><span>4.54</span><i id="3" class=" songItemPlay fa-solid fa-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="c1.jpg" alt="1">
+                    <span class="songName">Enemy</span>
+                    <span class="songListPlay"><span>4.54</span><i id="4" class=" songItemPlay fa-solid fa-play"></i></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="SongBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-2x  fa-solid fa-backward-step" id="previous"></i>
+            <i   class="fa-2x fa-solid fa-play" id="masterPlay" ></i>
+            <i class="fa-2x  fa-solid fa-forward-step" id="next"></i>
+        </div>
+       
+            <div class="currsong">
+                <img src="gif.jpg" alt="playing" id="gif"><span class="masterSongName">Hasta hua </span>
+            </div>
+        
+        
+    </div>
+<script src="https://kit.fontawesome.com/f78166e139.js" crossorigin="anonymous"></script>    
+<script src="script.js"></script>    
+</body>
+</html>
